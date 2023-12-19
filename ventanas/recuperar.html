@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>TECNOPRIMO</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="../css/Iniciar_Sesion.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="icon" sizes="32x32" href="../imagenes/logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 onclick="window.location.href='../index.html'"><a>tecno</a><span>primo</span></h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="../index.html"> Inicio </a>
+                <a href="info.html">Info</a>
+                <a href="registro.php">Regristrase</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="seccion_form">
+            <div class="formulario">
+                <img src="../imagenes/tecnoprimo.png">
+                <h1>Recuperar Contraseña</h1>
+                <form method="post">
+                    <div class="username">
+                        <input type="email" title="Email" required>
+                        <label>Email</label>
+                    </div>
+                    <input class="recuperar_submit" type="submit" value="Enviar">
+                    <div class="registrarse">
+                        <a href="registro.php">¿No tienes una cuenta?<span style="color: blue;">Registrate aquí</span></a>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            Tecnoprimo WEB &copy; 2023
+        </footer>
+    </main>
+
+</body>
+
+</html>
